@@ -39,7 +39,7 @@
 	circle.Color = Color3.fromRGB(161, 165, 162)
 	circle.Thickness = 0
 	circle.NumSides = 732
-	circle.Radius = 50
+	circle.Radius = 35
 	circle.Thickness = 0
 	circle.Transparency = 0.4
 	circle.Visible = true
