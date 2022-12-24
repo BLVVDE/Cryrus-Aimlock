@@ -1,4 +1,4 @@
-	--// Grim Lock "Q" made by mando ( mando#0006 , dm ryp#4089 if any problems )
+	--// Grim Lock skidded
 	-- dont fuck with this shit down here
 
 	-- Toggle
@@ -27,8 +27,8 @@
 	Tracer.Transparency = 0.8
 	Tracer.Parent = game.Workspace  
 	Tracer.Shape = _G.Types.Block
-	Tracer.Size = Vector3.new(4,6,5)
-	Tracer.Color = Color3.fromRGB(0,100,147)
+	Tracer.Size = Vector3.new(3,5,4)
+	Tracer.Color = Color3.fromRGB(242, 243, 243)
 
 	--
 	local plr = game.Players.LocalPlayer
@@ -36,12 +36,12 @@
 	local Runserv = game:GetService("RunService")
 
 	circle = Drawing.new("Circle")
-	circle.Color = Color3.fromRGB(0,100,147)
+	circle.Color = Color3.fromRGB(161, 165, 162)
 	circle.Thickness = 0
 	circle.NumSides = 732
 	circle.Radius = 50
 	circle.Thickness = 0
-	circle.Transparency = 0.5
+	circle.Transparency = 0.4
 	circle.Visible = true
 	circle.Filled = false
 
@@ -60,7 +60,7 @@
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Grim Lock",
 			Text = "Already Loaded!",
-			Duration = 5
+			Duration = 3
 
 		})
 		return
