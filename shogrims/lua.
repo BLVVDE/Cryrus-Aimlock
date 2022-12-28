@@ -28,7 +28,7 @@
 	Tracer.Parent = game.Workspace  
 	Tracer.Shape = _G.Types.Block
 	Tracer.Size = Vector3.new(3,5,4)
-	Tracer.Color = Color3.fromRGB(242, 243, 243)
+	Tracer.Color = Color3.fromRGB(27, 42, 53)
 
 	--
 	local plr = game.Players.LocalPlayer
@@ -36,7 +36,7 @@
 	local Runserv = game:GetService("RunService")
 
 	circle = Drawing.new("Circle")
-	circle.Color = Color3.fromRGB(161, 165, 162)
+	circle.Color = Color3.fromRGB(27, 42, 53)
 	circle.Thickness = 0
 	circle.NumSides = 732
 	circle.Radius = 35
@@ -96,13 +96,13 @@
 							game.StarterGui:SetCore("SendNotification", {
 								Title = "Grim Lock",
 								Text = "Unlocked",
-								Duration = 5
+								Duration = 3
 							})
 						elseif getgenv().Target == false then
 							game.StarterGui:SetCore("SendNotification", {
 								Title = "Grim Lock",
 								Text = "Target isn't enabled",
-								Duration = 5
+								Duration = 2
 
 							})
 
